@@ -2,3 +2,5 @@ node_modules
 lib
 temp
 .DS_Store
+*.iml
+yarn-error.log
