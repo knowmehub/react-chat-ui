@@ -102,7 +102,7 @@ export default class ChatFeed extends React.Component {
    * render : renders our chatfeed
    */
   render() {
-    const inputField = this.props.hasInputField && <ChatInput />;
+    const inputField = this.props.hasInputField && <ChatInput inputPlaceholder="" inputStyles={null} />;
     const { maxHeight } = this.props;
 
     return (
