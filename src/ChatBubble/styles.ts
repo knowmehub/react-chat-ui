@@ -9,7 +9,7 @@ export default {
     margin: 0
   },
   chatbubble: {
-    backgroundColor: '#9691ca',
+    backgroundColor: '#773ebd',
     borderRadius: 20,
     marginTop: 1,
     marginRight: 'auto',
@@ -27,9 +27,14 @@ export default {
     float: 'right',
   },
   recipientChatbubble: {
-    color: '#6B4E84',
-    backgroundColor: '#FFFFFF',
-    fontWeight: '500'
+    color: '#2B193D',
+    backgroundColor: '#FFEF76',
+    borderRadius: 20,
+    fontWeight: '500',
+    paddingTop: 8,
+    paddingBottom: 8,
+    paddingLeft: 14,
+    paddingRight: 14
   },
   recipientChatbubbleOrientationNormal: {
     float: 'left',
