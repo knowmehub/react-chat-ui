@@ -29,7 +29,12 @@ declare const _default: {
     recipientChatbubble: {
         color: string;
         backgroundColor: string;
+        borderRadius: number;
         fontWeight: string;
+        paddingTop: number;
+        paddingBottom: number;
+        paddingLeft: number;
+        paddingRight: number;
     };
     recipientChatbubbleOrientationNormal: {
         float: string;

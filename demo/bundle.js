@@ -38,8 +38,8 @@ var styles = {
   },
   selected: {
     color: '#fff',
-    backgroundColor: '#0084FF',
-    borderColor: '#0084FF'
+    backgroundColor: '#773ebd',
+    borderColor: '#773ebd'
   }
 };
 
@@ -390,7 +390,7 @@ exports.default = {
         overflow: 'auto',
     },
     chatbubble: {
-        backgroundColor: '#0084FF',
+        backgroundColor: '#773ebd',
         borderRadius: 20,
         marginTop: 1,
         marginRight: 'auto',
@@ -15135,7 +15135,7 @@ function insertNonHydratedInstance(returnFiber, fiber) {
               didNotFindHydratableContainerTextInstance(parentContainer, text);
               break;
             case SuspenseComponent:
-              
+
               break;
           }
           break;

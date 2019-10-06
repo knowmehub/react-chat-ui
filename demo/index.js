@@ -19,8 +19,8 @@ const styles = {
   },
   selected: {
     color: '#fff',
-    backgroundColor: '#0084FF',
-    borderColor: '#0084FF',
+    backgroundColor: '#773ebd',
+    borderColor: '#773ebd',
   },
 };
 
