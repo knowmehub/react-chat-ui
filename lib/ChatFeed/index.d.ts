@@ -23,7 +23,7 @@ export default class ChatFeed extends React.Component {
     componentDidMount(): void;
     componentDidUpdate(): void;
     scrollToBottom(): void;
-    renderMessages(messages: [Message]): any[];
-    render(): any;
+    renderMessages(messages: [Message]): JSX.Element[];
+    render(): JSX.Element;
 }
 export {};
