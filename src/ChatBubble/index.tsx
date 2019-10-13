@@ -25,14 +25,14 @@ export default class ChatBubble extends React.Component {
     const chatBubbleStyles =
       this.props.message.id === 0
         ? {
-            // ...styles.chatbubble,
+            ...styles.chatbubble,
             ...bubblesCentered ? {} : styles.chatbubbleOrientationNormal,
             // ...chatbubble,
             ...userBubble,
           }
         : {
-            // ...styles.chatbubble,
-            // ...styles.recipientChatbubble,
+            ...styles.chatbubble,
+            ...styles.recipientChatbubble,
             ...bubblesCentered
               ? {}
               : styles.recipientChatbubbleOrientationNormal,

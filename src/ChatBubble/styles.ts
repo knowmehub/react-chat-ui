@@ -9,7 +9,7 @@ export default {
     margin: 0
   },
   chatbubble: {
-    backgroundColor: '#773ebd',
+    backgroundColor: '#773ebd', // purple
     borderRadius: 20,
     marginTop: 1,
     marginRight: 'auto',
@@ -28,7 +28,7 @@ export default {
   },
   recipientChatbubble: {
     color: '#2B193D',
-    backgroundColor: '#FFEF76',
+    backgroundColor: '#FFEF76', // yellow
     borderRadius: 20,
     fontWeight: '500',
     paddingTop: 8,
