@@ -9,6 +9,7 @@ declare const _default: {
         margin: number;
     };
     chatbubble: {
+        color: string;
         backgroundColor: string;
         borderRadius: number;
         marginTop: number;
