@@ -9,8 +9,9 @@ export default {
     margin: 0
   },
   chatbubble: {
-    color: '#ffffff',
-    backgroundColor: '#FE491E', // red
+    color: '#000000',
+    // backgroundColor: '#FE491E', // red
+    backgroundColor: '#97c9b0', // light green
     borderRadius: 20,
     marginTop: 1,
     marginRight: 'auto',
@@ -28,8 +29,9 @@ export default {
     float: 'right',
   },
   recipientChatbubble: {
-    color: '#ffffff',
-    backgroundColor: '#FE491E', // red
+    color: '#000000',
+    // backgroundColor: '#FE491E', // red
+    backgroundColor: '#97c9b0', // light green
     borderRadius: 20,
     fontWeight: '500',
     paddingTop: 8,
